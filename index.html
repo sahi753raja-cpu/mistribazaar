@@ -1686,3 +1686,32 @@
   </script>
 </body>
 </html>
+<!-- ==================== UPI PAYMENT & QR SECTION ==================== -->
+<div class="max-w-4xl mx-auto px-4 my-8 bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+  <div class="text-center mb-4">
+    <h3 class="text-lg font-extrabold text-slate-900">💳 Pay via UPI / Scan QR Code</h3>
+    <p class="text-xs text-slate-500 mt-1">Scan the QR or click the button below to pay directly via Google Pay, PhonePe, or Paytm.</p>
+  </div>
+  
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+    <!-- QR Code Info Box -->
+    <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl text-center">
+      <div class="w-36 h-36 bg-slate-200 rounded-lg flex items-center justify-center text-xs font-bold text-slate-600 mb-2">
+        [ Central Bank QR ]
+      </div>
+      <span class="text-[11px] font-bold text-slate-700">UPI ID: 8293190253-2@ybl</span>
+    </div>
+
+    <!-- Direct UPI Payment Button -->
+    <div class="space-y-3 w-full sm:w-auto text-center sm:text-left">
+      <p class="text-xs font-bold text-slate-700">Or click to open payment app directly:</p>
+      
+      <!-- Direct UPI Link with your Central Bank UPI ID -->
+      <a href="upi://pay?pa=8293190253-2@ybl&pn=MistriBazaar&am=49&cu=INR" class="inline-block w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition text-center">
+        ⚡ Pay ₹49 via UPI App
+      </a>
+      
+      <p class="text-[11px] text-slate-400">Works with PhonePe, Paytm, Google Pay, BHIM &amp; Airtel Payments Bank.</p>
+    </div>
+  </div>
+</div>
